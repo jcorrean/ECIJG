@@ -56,7 +56,6 @@ nombres_df <- data.frame(doc_id = gsub("[^0-9-]", "", basename(archivos_pdf)), I
 # Fusionar los nombres con el data frame original `Investigadores` usando `doc_id` como clave
 Investigadores <- left_join(Investigadores, nombres_df, by = "doc_id")
 
-# Ahora el data frame `Investigadores` tiene una columna adicional llamada "Investigador"
-print(Investigadores)
+
 
 
