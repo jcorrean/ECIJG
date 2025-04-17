@@ -3,8 +3,6 @@ library(readtext)
 library(pdftools)
 library(dplyr)
 library(stringr)
-#Investigadores <- readtext("Investigadores/")
-#Investigadores$doc_id <- gsub("[^0-9-]", "", Investigadores$doc_id)
 
 directorio <- "Investigadores/"
 
